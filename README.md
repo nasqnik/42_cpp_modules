@@ -26,15 +26,15 @@ sudo apt install build-essential clang make
 ## Modules
 
 - `cpp00` ([README](./cpp00/README.md))
-- `cpp01`
-- `cpp02`
-- `cpp03`
-- `cpp04`
-- `cpp05`
-- `cpp06`
-- `cpp07`
-- `cpp08`
-- `cpp09`
+- `cpp01` ([README](./cpp01/README.md))
+- `cpp02` ([README](./cpp02/README.md))
+- `cpp03` ([README](./cpp03/README.md))
+- `cpp04` ([README](./cpp04/README.md))
+- `cpp05` ([README](./cpp05/README.md))
+- `cpp06` ([README](./cpp06/README.md))
+- `cpp07` ([README](./cpp07/README.md))
+- `cpp08` ([README](./cpp08/README.md))
+- `cpp09` ([README](./cpp09/README.md))
 
 ## Build and Run
 
@@ -58,10 +58,10 @@ make
 
 ## Notes
 
-- Module-level README files are added progressively.
-- Detailed instructions are available in each module/exercise folder when present.
+- Each module includes its own `README.md` with exercise overview and run commands.
+- Detailed implementation and behavior notes are provided per module/exercise where relevant.
 
 ## Environment
 
-- OS: Ubuntu 22.04
-- Compiler toolchain: Clang
+- Tested on Linux and macOS
+- Compiler toolchain: `c++` / `clang++` / `g++` (C++98 mode)
